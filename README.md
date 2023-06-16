@@ -31,6 +31,9 @@ Isabella Vega - https://github.com/ivega16
 ## Features
 
 Website
+![image](https://github.com/ivega16/challenge1-code-refactoring/assets/99403219/cb1c40e6-c473-49e3-87c9-f9593047f1e3)
+![image](https://github.com/ivega16/challenge1-code-refactoring/assets/99403219/40737298-7b4c-4bf8-ba59-56eed77745ac)
+
 
 
 ## How to Contribute
