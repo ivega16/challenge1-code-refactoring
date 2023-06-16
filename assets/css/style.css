@@ -4,7 +4,7 @@
     margin: 0;
 }
 
- body {
+body {
     background-color: #d9dcd6;
 }
 
@@ -26,27 +26,35 @@ header nav {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+}
+
+header nav ul {
     list-style-type: none;
 }
 
-li {
+/* places header nav bar in horiontal list */
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* regarding links in nav bar */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* all paragraph text has same size */
 p {
     font-size: 16px;
 }
 
+/* changes seo portion of Horiseon to an off-white color */
 .seo {
     color: #d9dcd6;
 }
 
+/* the self-contained image under navigation bar */
 .hero {
     height: 800px;
     width: 100%;
@@ -56,6 +64,7 @@ p {
     background-position: center;
 }
 
+/* manages layout with enough space for aside section */
 .content {
     width: 75%;
     display: inline-block;
@@ -72,7 +81,7 @@ p {
     margin-left: 25px;
 }
 
-
+/* manages layout of main section */
 .marketing-topics {
     margin-bottom: 20px;
     padding: 50px;
@@ -82,6 +91,7 @@ p {
     color: #ffffff;
 }
 
+/* size of all the images in main  */
 .marketing-topics img {
     max-height: 200px;
 }
@@ -91,6 +101,7 @@ p {
     font-size: 36px;
 }
 
+/* manages layout of aside section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,16 +113,18 @@ p {
     background-color: #2589bd;
 }
 
+/* specifications for each item under aside panel */
 .benefit-items {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* aside panel headings */
 .benefit-items h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* aside panel images */
 .benefit-items img {
     display: block;
     margin: 10px auto;
